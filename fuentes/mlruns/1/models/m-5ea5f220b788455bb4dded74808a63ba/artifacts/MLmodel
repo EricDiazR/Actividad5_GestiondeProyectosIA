@@ -1,0 +1,22 @@
+artifact_path: /home/eleri/act5/fuentes/mlruns/1/models/m-5ea5f220b788455bb4dded74808a63ba/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.3
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.18.0
+model_id: m-5ea5f220b788455bb4dded74808a63ba
+model_size_bytes: 919598
+model_uuid: m-5ea5f220b788455bb4dded74808a63ba
+prompts: null
+run_id: 0d6a4bfda30945ba8f0be97285552d3b
+utc_time_created: '2026-11-04 03:25:24.956121'
